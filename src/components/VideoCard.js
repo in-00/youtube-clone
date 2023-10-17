@@ -5,7 +5,7 @@ const VideoCard = ({ info }) => {
   const { channelTitle, title, thumbnails } = snippet;
 
   return (
-    <div className="flex flex-col p-2 m-2 w-[420px] h-[370px] shadow-lg cursor-pointer">
+    <div className="flex flex-col p-2 m-2 w-[378px] h-[370px] shadow-lg cursor-pointer">
       <img className="rounded-lg" alt="thumbnail" src={thumbnails.medium.url} />
       <div className="max-w-[100%]">
         <ul>
